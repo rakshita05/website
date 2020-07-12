@@ -2,6 +2,13 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+.name {
+    font-size:x-large;
+    color:white;
+    padding: 1%;
+}
+
 nav ul li a{
     font-size:1.1rem ;
     font-weight:600 ;
