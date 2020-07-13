@@ -13,6 +13,7 @@ nav ul li a{
     font-size:1.1rem ;
     font-weight:600 ;
 }
+
 /*Start:FOOTER*/
  .full-footer{
 position:absolute;
@@ -23,9 +24,11 @@ width:100%
       color:whitesmoke;
 }
 .bottom-footer{
-    background-color:#020350 ;
+    background-color:#212529 ;
 }
 .bottom-footer p{
     color:white;
+    font-size: 0.75rem;
+    margin: 0px;
 }
 /*End:FOOTER*/
