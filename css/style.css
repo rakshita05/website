@@ -13,3 +13,19 @@ nav ul li a{
     font-size:1.1rem ;
     font-weight:600 ;
 }
+/*Start:FOOTER*/
+ .full-footer{
+position:absolute;
+bottom: 0;
+width:100%
+}
+.top-footer h5{
+      color:whitesmoke;
+}
+.bottom-footer{
+    background-color:#020350 ;
+}
+.bottom-footer p{
+    color:white;
+}
+/*End:FOOTER*/
