@@ -14,10 +14,50 @@ nav ul li a{
     font-weight:600 ;
 }
 
+
+/* start gallery */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.row .column {
+    flex: 33.3%;
+    width: auto;
+    overflow: hidden;
+    padding: 0 4px;
+    height: 100%;
+}
+
+.row .column img {
+    margin: 2%;
+    padding: 2px 2px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .row .column {
+        flex: 50%;
+    }
+    .col3 img{
+        max-width: 45%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .row .column {
+        flex: 100%;
+    }
+}
+/* End gallery */
+
+
 /*Start:FOOTER*/
  .full-footer{
 position:absolute;
-bottom: 0;
 width:100%
 }
 .top-footer h5{
