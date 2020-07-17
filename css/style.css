@@ -51,6 +51,9 @@ nav ul li a{
     .row .column {
         flex: 100%;
     }
+    .col3 img{
+        max-width: 100%;
+    }
 }
 /* End gallery */
 
