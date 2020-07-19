@@ -58,7 +58,7 @@ nav ul li a{
 }
 /* End gallery */
 
-/* Welcome message starts */
+/* Headings decoration starts */
 .gradient-headings{
     font-size: 2.5rem;
     font-weight: bold;
@@ -66,13 +66,39 @@ nav ul li a{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    overflow: hidden;
+    text-align: center;
 }
+
+
+.gradient-headings:before,
+.gradient-headings:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.gradient-headings:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+.gradient-headings:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+/* Headings decoration ends */
 
 p {
     text-align: center;
-    width: 80%;
+    padding: 0% 10%;
 }
-/* Welcome message ends */
+
 
 /*Start:FOOTER*/
  .full-footer{
