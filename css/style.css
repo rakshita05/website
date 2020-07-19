@@ -91,3 +91,15 @@ width:100%
     margin: 0px;
 }
 /*End:FOOTER*/
+
+/*text over carousel stylling starts*/
+.carousel-caption {
+    position: absolute;
+    top: 8px;
+    font-size:x-large ;
+    font-family:American Typewriter, serif;
+    text-align:center;
+    color:white;
+    font-weight: 800;
+}
+/*text over carousel stylling ends*/
