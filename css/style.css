@@ -58,6 +58,21 @@ nav ul li a{
 }
 /* End gallery */
 
+/* Welcome message starts */
+.gradient-headings{
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#020350, #0079a1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    text-align: center;
+    width: 80%;
+}
+/* Welcome message ends */
 
 /*Start:FOOTER*/
  .full-footer{
